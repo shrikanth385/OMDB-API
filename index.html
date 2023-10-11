@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Buffs</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,200&family=Libre+Franklin:ital,wght@1,500&family=Qwigley&display=swap"
+      rel="stylesheet" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="navigation">
+        <img
+          src="./resources/logo.jpeg"
+          alt="image-logo"
+          class="navigation-logo" />
+        <h1 class="tagline">The ultimate destination for movie buffs</h1>
+        <nav id="menu">
+          <ul>
+            <li><a href="#home" id="home">Home</a></li>
+            <li><a href="#favoritesContainer" id="favorites">Favorites</a></li>
+            <li><a href="#about" id="about-link">About</a></li>
+            <li><a href="#contact" id="contact-us">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <div class="search-container">
+      <input
+        type="text"
+        id="searchInput"
+        class="button-style"
+        placeholder="Search for a movie..." />
+      <div id="suggestionsContainer" class="suggestions-container">
+        <div id="movie-context"></div>
+      </div>
+      <button id="searchButton" class="button-style">Search</button>
+    </div>
+
+    <div class="movie-info" id="movieInfoContainer"></div>
+    <div class="favorites-info" id="favoritesContainer"></div>
+
+    <div class="carousel-container">
+      <div class="carousel-track">
+        <img src="./resources/img-1.jpeg" alt="Image 1" />
+        <img src="./resources/img-2.jpeg" alt="Image 2" />
+        <img src="./resources/img-3.jpg" alt="Image 3" />
+        <img src="./resources/img-4.jpg" alt="Image 4" />
+        <img src="./resources/img-5.jpeg" alt="Image 5" />
+        <img src="./resources/img-6.jpg" alt="Image 6" />
+        <img src="./resources/img-7.jpg" alt="Image 7" />
+        <img src="./resources/img-8.jpg" alt="Image 8" />
+        <img src="./resources/img-9.jpg" alt="Image 9" />
+        <img src="./resources/img-10.jpg" alt="Image 10" />
+      </div>
+    </div>
+
+    <div class="about" id="about">
+      <h2 class="about-title">About</h2>
+      <p class="about-content">
+        Welcome to Cinemasphere, where the magic of movies meets the limitless
+        possibilities of the digital universe. Founded in 2000 by the visionary
+        cinephile Alexander Silverstone, Cinemasphere emerged from the cosmic
+        convergence of passion and technology. Picture our headquarters: an
+        abandoned movie theater transformed into a haven for developers,
+        designers, and movie aficionados. Our breakthrough came with the
+        discovery of the Quantum Reel—an enigmatic artifact that bestowed upon
+        us the power to create the ultimate movie database. Sir Flicks-a-Lot,
+        our charismatic mascot, embodies the spirit of exploration as he
+        traverses movie dimensions, unlocking the secrets of cinema. Step into
+        our virtual realm, where the Timeless Watchlist lets you curate
+        cinematic journeys that defy temporal boundaries. Cinemasphere isn't
+        just a website; it's a portal to a world where every film ever made
+        finds its place. Alexander Silverstone, the ageless guardian of the
+        Quantum Reel, ensures that our commitment to cinematic enchantment
+        evolves with the times. Join us in celebrating the art of storytelling,
+        the charm of Sir Flicks-a-Lot, and the boundless wonder that is
+        Cinemasphere—an ever-evolving ode to the magic of movies.
+      </p>
+    </div>
+    <div class="contact" id="contact">
+      <h2 class="contact-title">
+        Reach out to the Cinemasphere team and unlock the gates to cinematic
+        enchantment!
+      </h2>
+      <p class="contact-address">
+        <span class="bold">Address:</span>&nbsp; Quantum Avenue, Filmlandia,
+        Digital Realm
+      </p>
+      <p class="contact-phone">
+        <span class="bold">Phone:</span>&nbsp; +1 (CINEMA) MAGIC-1
+      </p>
+      <p class="contact-email">
+        <span class="bold">Email:</span>&nbsp;info@cinemasphereuniverse.com
+      </p>
+      <p class="contact-fax">
+        <span class="bold">Fax:</span>&nbsp; 555-FLICKS-FAX
+      </p>
+      <p class="contact-moreInfo">
+        For interdimensional inquiries, contact Sir Flicks-a-Lot directly at
+        flicks@cinemasphereuniverse.com. He'll guide you through the magical
+        realms of our cinematic wonderland!
+      </p>
+      <p class="contact-special-note">
+        Please note: Responses may experience delays due to time-bending film
+        exploration. Your patience is appreciated as we navigate the cosmic
+        corridors of movie magic.
+      </p>
+    </div>
+  </body>
+</html>
